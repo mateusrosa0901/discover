@@ -1,2 +1,2 @@
 # discover
- Aqui começa meus estudos em desenvolvimento WEB
+ Aqui começa minha aventura em desenvolvimento WEB
