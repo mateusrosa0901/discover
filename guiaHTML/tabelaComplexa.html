@@ -1,19 +1,19 @@
 <table>
     <caption>Produzidos x Vendidos por loja</caption>
-
+<!--define os espaçamentos e o estilo das colunas-->
     <colgroup>
         <col>
         <col span="2" style="background-color: rgb(252, 79, 79);">
         <col span="2" style="background-color: rgb(52, 196, 23);">
     </colgroup>
-
+<!--cabeçalho, rowspan = ocupação de linhas. colspan = ocupação de colunas-->
     <thead>
         <tr> 
             <th rowspan="2"></th>
             <th colspan="2" scope="colgroup">Herculano Bike</th>
             <th colspan="2" scope="colgroup">Minas Bike</th>
         </tr>
-
+<!--scope = mais acessibilidade para a tabela-->
         <tr>
             <th scope="col">Produzidos</th>
             <th scope="col">Vendidos</th>
@@ -21,7 +21,7 @@
             <th scope="col">Vendidos</th>
         </tr>
     </thead>
-
+<!--corpo, tr = nova linha, th = nova coluna em negrito, td = nova linha sem negrito.-->
     <tbody>
         <tr>
             <th scope="row">Rodas</th>
@@ -38,5 +38,6 @@
             <td>30</td>
             <td>47</td>
         </tr>
+
     </tbody>
 </table>
